@@ -1,5 +1,5 @@
 <a name="v1.0.1"></a>
-# [[v1.0.1] - Bugfixes (v1.0.1)](https://github.com/JosXa/chromemarks/releases/tag/v1.0.1) - 31 Oct 2020
+# [Bugfixes (v1.0.1)](https://github.com/JosXa/chromemarks/releases/tag/v1.0.1) - 31 Oct 2020
 
 - Fixes a bug where the items could not be loaded when the synced bookmarks are empty.
 - Other minor improvements.
@@ -8,7 +8,7 @@
 
 
 <a name="v1.0.0"></a>
-# [[v1.0] - Initial Release (v1.0.0)](https://github.com/JosXa/chromemarks/releases/tag/v1.0.0) - 31 Oct 2020
+# [Initial Release (v1.0.0)](https://github.com/JosXa/chromemarks/releases/tag/v1.0.0) - 31 Oct 2020
 
 
 
