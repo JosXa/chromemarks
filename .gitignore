@@ -131,3 +131,7 @@ dmypy.json
 # PyCharm
 .idea
 bookmarks-backup.json
+
+
+# Test results
+junit/

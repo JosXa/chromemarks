@@ -10,6 +10,7 @@ def _parse_date(timestamp: str) -> datetime:
     delta = timedelta(microseconds=int(timestamp))
     return (epoch_start + delta).replace(tzinfo=timezone.utc).astimezone()
 
+
 class MetaInfo:
     last_visited_desktop: str
     last_visited: Optional[str] = None
@@ -29,7 +30,7 @@ class Bookmark(BaseModel):
         if v != "url":
             raise ValueError("Not a bookmark with URL")
         return v
-    
+
     @validator("date_added", pre=True)
     def parse_date_added(cls, v: Optional[str]):
         return _parse_date(v) if v else None
@@ -96,4 +97,3 @@ class BookmarksModel(BaseModel):
                 return bm
 
         return None
-
