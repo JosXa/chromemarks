@@ -8,6 +8,8 @@ A Python library for accessing the local Chrome Bookmarks store.
 
 ## Installation
 
-pip install chromemarks
+` pip install chromemarks`
 
 ## Usage
+
+See [examples](https://github.com/JosXa/chromemarks/tree/main/examples).
