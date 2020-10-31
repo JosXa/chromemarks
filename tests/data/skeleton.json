@@ -1,0 +1,34 @@
+{
+   "checksum": "a506ea896c5fbe0ddd97605e6ccf4013",
+   "roots": {
+      "bookmark_bar": {
+         "children": [],
+         "date_added": "13237315149575355",
+         "date_modified": "13248401859596240",
+         "guid": "00000000-0000-4000-a000-000000000002",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [],
+         "date_added": "13237315149575374",
+         "date_modified": "13247712822711986",
+         "guid": "00000000-0000-4000-a000-000000000003",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [],
+         "date_added": "13237315149575379",
+         "date_modified": "13232751491394781",
+         "guid": "00000000-0000-4000-a000-000000000004",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "",
+   "version": 1
+}
