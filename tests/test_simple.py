@@ -21,6 +21,11 @@ def test_skeleton(bm: BookmarksModel) -> None:
         == datetime(2020, 6, 22, 15, 59, 9, 575355, tzinfo=timezone.utc).astimezone()
     )
 
+def test_full() -> None:
+    full_path = Path(__file__).parent / "data" / "full.json"
+    bm = load_bookmarks(full_path, create_backup=False)
+    for b in bm.iter_bookmarks():
+        assert b.name is not None
 
 def test_find_bookmark(bm: BookmarksModel) -> None:
     it = Bookmark(

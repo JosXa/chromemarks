@@ -1,0 +1,244 @@
+{
+   "checksum": "a506ea896c5fbe0ddd97605e6ccf4013",
+   "roots": {
+      "bookmark_bar": {
+         "children": [
+            {
+               "date_added": "13111505368106610",
+               "guid": "cf49cdb2-15af-4d03-8e13-b76d85219de6",
+               "id": "462",
+               "name": "",
+               "type": "url",
+               "url": "chrome://bookmarks/"
+            },
+            {
+               "date_added": "13225455819395736",
+               "guid": "5da95bf5-8464-4e93-a894-a00d2049f3f9",
+               "id": "486",
+               "name": "",
+               "type": "url",
+               "url": "chrome://settings/searchEngines"
+            },
+            {
+               "children": [
+                  {
+                     "children": [
+                        {
+                           "children": [
+                              {
+                                 "date_added": "13248356720206120",
+                                 "guid": "86b38b3d-aebf-404b-9bb5-53b14ead410e",
+                                 "id": "1269",
+                                 "name": "artf/grapesjs-preset-webpage: GrapesJS Plugin Webpage Preset",
+                                 "type": "url",
+                                 "url": "https://github.com/artf/grapesjs-preset-webpage"
+                              }
+                           ],
+                           "date_added": "13248356754277654",
+                           "date_modified": "13248356760025164",
+                           "guid": "1ed81c86-c880-4eaf-adf0-28dc930a7f06",
+                           "id": "1270",
+                           "name": "GrapesJS",
+                           "type": "folder"
+                        }
+                     ],
+                     "date_added": "13248356713342873",
+                     "date_modified": "13248356720206120",
+                     "guid": "af0e3df3-f47f-41c0-b793-795bc41afb9b",
+                     "id": "1267",
+                     "name": "Flexible Web Design",
+                     "type": "folder"
+                  },
+                  {
+                     "children": [
+                        {
+                           "date_added": "13188912270717110",
+                           "guid": "ca3302e3-0474-491d-87f9-ddf68b8ab83b",
+                           "id": "517",
+                           "meta_info": {
+                              "last_visited_desktop": "13188912270718282"
+                           },
+                           "name": "c# - Should I always make my methods static where possible? - Stack Overflow",
+                           "type": "url",
+                           "url": "https://stackoverflow.com/questions/3699619/should-i-always-make-my-methods-static-where-possible"
+                        },
+                        {
+                           "date_added": "13210800442625617",
+                           "guid": "0afca5de-0415-483f-85d4-7210fa593c68",
+                           "id": "518",
+                           "name": ".py in the sky",
+                           "type": "url",
+                           "url": "https://astrofrog.github.io/blog/2013/04/10/how-to-conduct-a-full-code-review-on-github/"
+                        }
+                     ],
+                     "date_added": "13237315154829962",
+                     "date_modified": "13237315154829962",
+                     "guid": "34e914e9-d6e9-4afc-b7c4-a5aa5e8b151d",
+                     "id": "516",
+                     "name": "Review Arguments",
+                     "type": "folder"
+                  },
+                  {
+                     "children": [
+                        {
+                           "date_added": "13188385934113280",
+                           "guid": "5930fea8-5dfb-47aa-9a3c-dedbc6fd0e8a",
+                           "id": "593",
+                           "meta_info": {
+                              "last_visited_desktop": "13188477693560731"
+                           },
+                           "name": "Basic message formatting | Slack",
+                           "type": "url",
+                           "url": "https://api.slack.com/docs/message-formatting"
+                        }
+                     ],
+                     "date_added": "13237315154834928",
+                     "date_modified": "13237315154834928",
+                     "guid": "b7728475-baf7-4bc9-aeeb-fba85c2e5820",
+                     "id": "592",
+                     "name": "Slack Bots",
+                     "type": "folder"
+                  }
+               ],
+               "date_added": "13237315154827971",
+               "date_modified": "13248356741505174",
+               "guid": "0d4244b4-87f5-4759-9c87-2cd36ad959c6",
+               "id": "488",
+               "name": "Work",
+               "type": "folder"
+            }
+         ],
+         "date_added": "13237315149575355",
+         "date_modified": "13248401859596240",
+         "guid": "00000000-0000-4000-a000-000000000002",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [
+            {
+               "date_added": "13111505368106610",
+               "guid": "cf49cdb2-15af-4d03-8e13-b76d85219de6",
+               "id": "462",
+               "name": "",
+               "type": "url",
+               "url": "chrome://bookmarks/"
+            },
+            {
+               "date_added": "13225455819395736",
+               "guid": "5da95bf5-8464-4e93-a894-a00d2049f3f9",
+               "id": "486",
+               "name": "",
+               "type": "url",
+               "url": "chrome://settings/searchEngines"
+            },
+            {
+               "children": [
+                  {
+                     "children": [
+                        {
+                           "children": [
+                              {
+                                 "date_added": "13248356720206120",
+                                 "guid": "86b38b3d-aebf-404b-9bb5-53b14ead410e",
+                                 "id": "1269",
+                                 "name": "artf/grapesjs-preset-webpage: GrapesJS Plugin Webpage Preset",
+                                 "type": "url",
+                                 "url": "https://github.com/artf/grapesjs-preset-webpage"
+                              }
+                           ],
+                           "date_added": "13248356754277654",
+                           "date_modified": "13248356760025164",
+                           "guid": "1ed81c86-c880-4eaf-adf0-28dc930a7f06",
+                           "id": "1270",
+                           "name": "GrapesJS",
+                           "type": "folder"
+                        }
+                     ],
+                     "date_added": "13248356713342873",
+                     "date_modified": "13248356720206120",
+                     "guid": "af0e3df3-f47f-41c0-b793-795bc41afb9b",
+                     "id": "1267",
+                     "name": "Flexible Web Design",
+                     "type": "folder"
+                  },
+                  {
+                     "children": [
+                        {
+                           "date_added": "13188912270717110",
+                           "guid": "ca3302e3-0474-491d-87f9-ddf68b8ab83b",
+                           "id": "517",
+                           "meta_info": {
+                              "last_visited_desktop": "13188912270718282"
+                           },
+                           "name": "c# - Should I always make my methods static where possible? - Stack Overflow",
+                           "type": "url",
+                           "url": "https://stackoverflow.com/questions/3699619/should-i-always-make-my-methods-static-where-possible"
+                        },
+                        {
+                           "date_added": "13210800442625617",
+                           "guid": "0afca5de-0415-483f-85d4-7210fa593c68",
+                           "id": "518",
+                           "name": ".py in the sky",
+                           "type": "url",
+                           "url": "https://astrofrog.github.io/blog/2013/04/10/how-to-conduct-a-full-code-review-on-github/"
+                        }
+                     ],
+                     "date_added": "13237315154829962",
+                     "date_modified": "13237315154829962",
+                     "guid": "34e914e9-d6e9-4afc-b7c4-a5aa5e8b151d",
+                     "id": "516",
+                     "name": "Review Arguments",
+                     "type": "folder"
+                  },
+                  {
+                     "children": [
+                        {
+                           "date_added": "13188385934113280",
+                           "guid": "5930fea8-5dfb-47aa-9a3c-dedbc6fd0e8a",
+                           "id": "593",
+                           "meta_info": {
+                              "last_visited_desktop": "13188477693560731"
+                           },
+                           "name": "Basic message formatting | Slack",
+                           "type": "url",
+                           "url": "https://api.slack.com/docs/message-formatting"
+                        }
+                     ],
+                     "date_added": "13237315154834928",
+                     "date_modified": "13237315154834928",
+                     "guid": "b7728475-baf7-4bc9-aeeb-fba85c2e5820",
+                     "id": "592",
+                     "name": "Slack Bots",
+                     "type": "folder"
+                  }
+               ],
+               "date_added": "13237315154827971",
+               "date_modified": "13248356741505174",
+               "guid": "0d4244b4-87f5-4759-9c87-2cd36ad959c6",
+               "id": "488",
+               "name": "Work",
+               "type": "folder"
+            }
+         ],
+         "date_added": "13237315149575374",
+         "date_modified": "13247712822711986",
+         "guid": "00000000-0000-4000-a000-000000000003",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [],
+         "date_added": "13237315149575379",
+         "date_modified": "13232751491394781",
+         "guid": "00000000-0000-4000-a000-000000000004",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "",
+   "version": 1
+}
