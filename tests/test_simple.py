@@ -12,12 +12,12 @@ def bm() -> BookmarksModel:
 
 def test_skeleton(bm: BookmarksModel) -> None:
     roots = bm.roots
-    assert roots.bookmark_bar
+    assert roots.bookmarks_bar
     assert roots.other
     assert roots.synced
 
     assert (
-        roots.bookmark_bar.date_added
+        roots.bookmarks_bar.date_added
         == datetime(2020, 6, 22, 15, 59, 9, 575355, tzinfo=timezone.utc).astimezone()
     )
 

@@ -78,7 +78,7 @@ def iter_bookmarks(item: Union[Folder, Bookmark]) -> Iterable[Bookmark]:
 class Roots(BaseModel):
     other: Folder
     synced: Folder
-    bookmarks_bar: Folder = Field(..., alias="bookmark_bar")
+    bookmarks_bar: Folder = Field(..., alias="bookmarks_bar")
 
     def iter_bookmarks(self) -> Iterable[Bookmark]:
         for category in [self.bookmarks_bar, self.other, self.synced]:
