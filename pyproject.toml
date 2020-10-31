@@ -34,4 +34,4 @@ build-backend = "poetry.masonry.api"
 
 [tool.poe.tasks]
 # Usage: `pip install poe`, then `poe [task]`
-test = "poetry run pytest -m tests --junitxml=junit/test-results-3.8.xml"
+test = "poetry run pytest -m tests"
