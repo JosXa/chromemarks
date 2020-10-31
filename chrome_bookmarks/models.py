@@ -1,10 +1,8 @@
-from pathlib import Path
-from typing import Callable, Generator, Iterable, List, Optional, Union
+from typing import Callable, Iterable, List, Optional, Union
 from datetime import datetime, timedelta, timezone
 
 from pydantic import validator
 from pydantic import BaseModel, Field
-from pydantic.dataclasses import dataclass
 
 
 def _parse_date(timestamp: str) -> datetime:

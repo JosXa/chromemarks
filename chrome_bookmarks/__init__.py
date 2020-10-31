@@ -3,10 +3,10 @@ from shutil import copy
 from typing import Optional
 
 from pydantic.tools import parse_file_as
-from ._bookmark_system_path import get_chrome_bookmarks_path
+from .chrome_system_paths import get_chrome_bookmarks_path
 
 
-from ._models import BookmarksModel, Folder, Bookmark
+from .models import BookmarksModel, Folder, Bookmark
 
 
 def load_bookmarks(
