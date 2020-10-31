@@ -2,7 +2,7 @@ import sys
 from pathlib import Path
 
 
-def get_chrome_bookmarks_path() -> Path:
+def get_chromemarks_path() -> Path:
     platform = sys.platform.lower()
     if "linux" in platform:
         platform_specific_path = Path("~/.config/google-chrome/Default/Bookmarks")

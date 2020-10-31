@@ -1,7 +1,7 @@
 from datetime import datetime, timezone
 from pathlib import Path
 import pytest
-from chrome_bookmarks import load_bookmarks, BookmarksModel, Bookmark
+from chromemarks import load_bookmarks, BookmarksModel, Bookmark
 
 
 @pytest.fixture(scope="function")

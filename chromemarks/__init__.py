@@ -3,7 +3,7 @@ from shutil import copy
 from typing import Optional
 
 from pydantic.tools import parse_file_as
-from .chrome_system_paths import get_chrome_bookmarks_path
+from .chrome_system_paths import get_chromemarks_path
 
 
 from .models import BookmarksModel, Folder, Bookmark
@@ -13,7 +13,7 @@ def load_bookmarks(
     path: Optional[Path] = None, create_backup: bool = True
 ) -> BookmarksModel:
     if path is None:
-        path = get_chrome_bookmarks_path()
+        path = get_chromemarks_path()
 
     if create_backup:
         copy(path, "bookmarks-backup.json")

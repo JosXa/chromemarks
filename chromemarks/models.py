@@ -63,6 +63,9 @@ class Folder(BaseModel):
     def parse_date_modified(cls, v: Optional[str]):
         return _parse_date(v) if v else None
 
+    def iter_bookmarks(self) -> Iterable[Bookmark]:
+        return iter_bookmarks(self)
+
 
 Folder.update_forward_refs()
 
@@ -78,7 +81,7 @@ def iter_bookmarks(item: Union[Folder, Bookmark]) -> Iterable[Bookmark]:
 class Roots(BaseModel):
     other: Folder
     synced: Folder
-    bookmarks_bar: Folder = Field(..., alias="bookmarks_bar")
+    bookmarks_bar: Folder = Field(..., alias="bookmark_bar")
 
     def iter_bookmarks(self) -> Iterable[Bookmark]:
         for category in [self.bookmarks_bar, self.other, self.synced]:
@@ -97,3 +100,6 @@ class BookmarksModel(BaseModel):
                 return bm
 
         return None
+
+    def iter_bookmarks(self) -> Iterable[Bookmark]:
+        return self.roots.iter_bookmarks()
