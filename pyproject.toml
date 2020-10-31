@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "chrome-bookmarks"
+name = "chromemarks"
 version = "1.0.0"
-description = "A Python library for accessing the local Chrome Bookmarks store."
+description = "A Python library for accessing the local Google Chrome Bookmarks store."
 authors = ["JosXa <joscha.goetzer@gmail.com>"]
 packages = [
     { include = "chrome_bookmarks" }
